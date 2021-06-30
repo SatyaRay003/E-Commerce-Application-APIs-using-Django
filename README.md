@@ -8,6 +8,9 @@ There will be 3 tables in the database
 1. Customer Order Table –  Stores ordered items from the customer side
 2. Inventory management Table – helps to visualize the current State of a Certain Warehouse
 3. Purchase Order Table – Place the orders to be purchased from the specified Supplier
-![image](https://user-images.githubusercontent.com/86600232/124010768-de548880-d9fc-11eb-98dd-062a1b00e515.png)
 
+
+### Workflow:
+The following picture shows, how Django Appllication actually interact with user end to Database and vice-versa.
+![image](https://user-images.githubusercontent.com/86600232/124011917-288a3980-d9fe-11eb-93ae-f1c93240da00.png)
 
