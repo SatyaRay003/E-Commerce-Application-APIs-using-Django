@@ -14,3 +14,9 @@ There will be 3 tables in the database
 The following picture shows, how Django Appllication actually interact with user end to Database and vice-versa.
 ![image](https://user-images.githubusercontent.com/86600232/124011917-288a3980-d9fe-11eb-93ae-f1c93240da00.png)
 
+## Installation and Setup: 
+### Create a Virual Environment
+```
+python -m venv <enviornment name>
+```
+
