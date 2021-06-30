@@ -34,3 +34,19 @@ pip install django
 ```
 pip install djangorestframework
 ```
+
+### Create Django Project
+```
+django-admin startproject <project name>
+```
+
+Go inside the Django Project folder
+### Open Visual Studio Code
+```
+code .
+```
+
+### Run the server
+```
+python manage.py runserver
+```
