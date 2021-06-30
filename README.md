@@ -20,3 +20,17 @@ The following picture shows, how Django Appllication actually interact with user
 python -m venv <enviornment name>
 ```
 
+### Activate the Virtual Environment
+```
+<enviornment name>\Scripts\activate
+```
+
+### Install Django
+```
+pip install django
+```
+
+### Install Django Rest Framework
+```
+pip install djangorestframework
+```
