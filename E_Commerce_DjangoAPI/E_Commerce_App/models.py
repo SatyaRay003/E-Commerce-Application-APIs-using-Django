@@ -37,9 +37,10 @@ class Purchase_Order(models.Model):
 
     Item_Name = models.CharField(max_length=50, null=False)
     Item_Id = models.CharField(max_length=50, primary_key=True)
-    Suuplier_Name = models.CharField(max_length=50, null=False)
+    Supplier_Name = models.CharField(max_length=50, null=False)
     Quantity = models.IntegerField(null=False)
-    Date_time = models.DateTimeField(auto_created=True)
+    Creation_Date_time = models.DateTimeField(auto_now_add=True)
+    Last_Modified_Date_time = models.DateTimeField(auto_now=True)
 
 
     def __str__(self):
