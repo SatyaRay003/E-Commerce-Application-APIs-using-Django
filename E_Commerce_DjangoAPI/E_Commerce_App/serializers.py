@@ -18,5 +18,5 @@ class Inventory_management_Serializer(serializers.ModelSerializer):
 class Purchase_Order_Serializer(serializers.ModelSerializer):
     class Meta:
         model = Purchase_Order
-        fields = ('Item_Name', 'Item_Id', 'Suuplier_Name', 
-                  'Quantity', 'Date_time')
+        fields = ('Item_Name', 'Item_Id', 'Supplier_Name', 
+                  'Quantity', 'Creation_Date_time', 'Last_Modified_Date_time')
