@@ -11,8 +11,8 @@ class Customer_Order(models.Model):
     Customer_Address = models.CharField(max_length=50, null=False)
     Quantity = models.IntegerField(null=False)
     Price = models.FloatField(null=False)
-    # Payment_status = models.BooleanField(null=False)
-    # Date_time = models.DateTimeField(auto_created=True)
+    Payment_status = models.BooleanField(default=True)
+    Order_Date = models.DateTimeField(auto_now_add=True)
     
 
     def __str__(self):
