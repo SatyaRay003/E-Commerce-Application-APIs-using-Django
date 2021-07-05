@@ -8,7 +8,7 @@ class Customer_Order_Serializer(serializers.ModelSerializer):
     class Meta:
         model = Customer_Order
         fields = ('Item_Name', 'Order_Id', 'Customer_Name', 
-                  'Customer_Address', 'Quantity', 'Price')
+                  'Customer_Address', 'Quantity', 'Price', 'Payment_status', 'Order_Date')
 
 class Inventory_management_Serializer(serializers.ModelSerializer):
     class Meta:
